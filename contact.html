@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<link rel="stylesheet" href="stylesheet.css"> </head>
+
+<body>
+	<header><img src="photos/Site_logo.jpg" alt="Malcolm Hervey text with headstone and spider" class="logo">
+		<div class="navigation-bar"> <a href="project.html">Home</a>
+			<div class="subnavigation">
+				<button class="subnav_button">About <i class="fa fa-caret-down"></i></button>
+				<div class="subnav_content"> <a href="about/biography.html">Meet the Author</a> <a href="about/gallery.html">Photo Gallery</a> </div>
+			</div>
+			<div class="subnavigation">
+				<button class="subnav_button">Career <i class="fa fa-caret-down"></i></button>
+				<div class="subnav_content"> <a href="career/news.html">News and Events</a> <a href="career/releases.html">Upcoming Releases</a> </div>
+			</div>
+			<div class="subnavigation">
+				<button class="subnav_button">Books <i class="fa fa-caret-down"></i></button>
+				<div class="subnav_content"> <a href="books/published.html">Published Work</a> <a href="books/samples.html">Samples</a> </div>
+			</div> <a href="contact.html">Contact</a> </div>
+	</header>
+	<main class="main-content" id="Contact">
+		<h1>Contact us</h1>
+		<form action="mailto:malcolmhervey@gmail.com" method="POST">
+			<fieldset>
+				<legend>Send us a message</legend>
+				<ol>
+					<li>
+						<label for="firstname">First name:</label>
+						<input type="text" name="fname" id="firstname"> </li>
+					<li>
+						<label for="lastname">Last name:</label>
+						<input type="text" name="lname" id="lastname"> </li>
+					<li>
+						<label for="email_message">Email:</label>
+						<input type="email" name="email" id="email_message"> </li>
+					<li>
+						<label for="telephone">Phone number:</label>
+						<input type="tel" name="telephone" id="telephone"> </li>
+					<li>
+						<label for="subject">Message subject</label>
+						<input type="text" name="subject" id="subject"> </li>
+					<li>
+						<textarea name="message" id="message" rows="4" cols="50" placeholder="Your message here"></textarea>
+						<br>
+						<input type="file" id="fan-submit" name="fan-submit" accept="image/png, image/jpeg"> </ol>
+				<input type="submit" value="Submit"> </fieldset>
+		</form>
+		<form action="mailto:malcolmhervey@gmail.com" method="post" class="lastform">
+			<fieldset>
+				<legend>Sign up for our newsletter </legend>
+				<p>Sign up for our newsletter to get the latest updates on Malcolm&#39;s work</p>
+				<ol>
+					<li>
+						<label for="firstlast">Name:</label>
+						<input type="text" name="fullname" id="firstlast"> </li>
+					<li>
+						<label for="email_newsletter">Email:</label>
+						<input type="text" name="email" id="email_newsletter"> </li>
+				</ol>
+				<input type="submit" value="Submit"> </fieldset>
+		</form>
+	</main>
+	<footer>
+		<ul class="footer_messages">
+			<li> Sign up for our <a href="contact.html">newsletter</a> to get the latest updates on Malcolm&#39;s work</li>
+			<li> Send a <a href="mailto:malcolmhervey@gmail.com">message</a></li>
+			<li> Or send some mail: P.O. Box address: Malcolm Hervey 1234 Chattanooga, TN 37409</li>
+		</ul>
+		<ul>
+			<li id="facebook">
+				<a href="https://facebook.com"><img src="icons/facebook.svg" alt="facebook logo"> </a>
+			</li>
+			<li id="instagram">
+				<a href="https://instagram.com"><img src="icons/instagram.svg" alt="instagram logo"> </a>
+			</li>
+			<li id="twitter">
+				<a href="https://twitter.com"><img src="icons/twitter.svg" alt="twitter logo"> </a>
+			</li>
+			<li id="youtube">
+				<a href="https://youtube.com"><img src="icons/youtube.svg" alt="youtube logo"> </a>
+			</li>
+		</ul>
+	</footer>
+</body>
+
+</html>
